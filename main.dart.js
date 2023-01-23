@@ -40697,14 +40697,14 @@ o.Z(o.G(0,n))
 o.F()}if(b instanceof A.kK){b.cl();++m.gD().ry}if(b instanceof A.jS)m.ys()
 if(b instanceof A.kw||b instanceof A.jY||b instanceof A.lY)m.ys()
 m.nn(a,b)},
-ys(){var s,r
-if(Date.now()-this.bi>1000){A.hV("** damage! **")
+ys(){var s,r,q=this
+if(Date.now()-q.bi>1000){A.hV("** damage! **");--q.gD().to
 s=A.jU(!0,B.W,0.1,!1,6,null)
 r=new A.A6(0,0,null,s,null,0,new A.aj([]),new A.aj([]),B.w)
 s.dP(r)
 r.by$=null
-r.aM(this)
-this.bi=Date.now()}}}
+r.aM(q)
+q.bi=Date.now()}}}
 A.Kq.prototype={
 $1(a){var s,r
 if(a===1){s=this.a
